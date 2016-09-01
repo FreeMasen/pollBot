@@ -1,0 +1,397 @@
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: pollster ...attempting to connect to RTM!
+notice: RTM websocket opened
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: pollster ...attempting to connect to RTM!
+notice: RTM websocket opened
+get poll started
+info: [Start]  0  Task for  U0SFSHF25 in D24L03M0U
+info: >   [Start]  0  Conversation with  U0SFSHF25 in D24L03M0U
+started conversation
+costructed query started
+parseWords
+[ [ 'about', 1 ] ]
+determineLast
+U0SFSHF25
+undefined
+info: >   [End]  0  Conversation with  U0SFSHF25 in D24L03M0U
+info: [End]  0  Task for  U0SFSHF25 in D24L03M0U
+get poll started
+info: [Start]  1  Task for  U0SFSHF25 in D24L03M0U
+info: >   [Start]  1  Conversation with  U0SFSHF25 in D24L03M0U
+started conversation
+costructed query started
+parseWords
+[]
+determineLast
+U0SFSHF25
+[ { _id: 57c641721c88f343136f2d9a,
+    user: 'pollster',
+    question: 'How far could you throw a goat?',
+    options: [ '10ft', '20ft', '30ft', '100ft' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0, '2': 0, '3': 0 } },
+  { _id: 57c641721c88f343136f2d9b,
+    user: 'pollster',
+    question: 'Chopped, Master Chef or Iron Chef',
+    options: [ 'Chopped', 'Master Chef', 'Iron Chef' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0, '2': 0 } },
+  { _id: 57c641721c88f343136f2d9c,
+    user: 'pollster',
+    question: 'Tacos or Pizza?',
+    options: [ 'Tacos', 'Pizza' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 0, '1': 1 } },
+  { _id: 57c641721c88f343136f2d9d,
+    user: 'pollster',
+    question: 'If you could go back in time, which would you rather do?',
+    options: 
+     [ 'Kill Hitler',
+       'See Dylan go electric',
+       'Defend the Alamo',
+       'Wrestle Teddy Rosevelt',
+       'Meditate with Sidhartha',
+       'Visit the Bauhaus' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 0, '1': 0, '2': 0, '3': 1, '4': 0, '5': 0 } },
+  { _id: 57c641721c88f343136f2d9e,
+    user: 'pollster',
+    question: 'NASCAR or Indy',
+    options: [ 'NASCAR', 'Indy', 'Fuck circles!' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 0, '1': 0, '2': 1 } },
+  { _id: 57c641721c88f343136f2d9f,
+    user: 'pollster',
+    question: 'Brains?',
+    options: [ 'yes', 'braaaaiiiinnnns' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0 } },
+  { _id: 57c641721c88f343136f2da0,
+    user: 'pollster',
+    question: 'Am I a cool bot?',
+    options: [ '1', '0' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0 } },
+  { _id: 57c641721c88f343136f2da1,
+    user: 'pollster',
+    question: 'Strong or Weak types?',
+    options: [ 'Strong', 'Weak' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0 } },
+  { _id: 57c643b0118ccc43980d9f77,
+    user: 'robot',
+    question: 'How many dogs can you jump over?',
+    options: [ '1', '15', '7' ],
+    inserted: 2016-08-31T02:40:48.009Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '2': 1 } },
+  { _id: 57c641721c88f343136f2d98,
+    user: 'pollster',
+    question: 'Would you rather eat a 1 cup of cold butter or catsup?',
+    options: [ 'butter', 'catsup' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 0, '1': 1 } },
+  { _id: 57c641721c88f343136f2d99,
+    user: 'pollster',
+    question: 'Would you rather eat 1 cup of hot butter or catsup?',
+    options: [ 'butter', 'catsup' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0 } },
+  { _id: 57c6464874610f44e2339262,
+    user: 'robot',
+    question: 'What is your favorite Bash command?',
+    options: [ 'Bash?', 'ls', 'apt-get', 'grep', 'source' ],
+    inserted: 2016-08-31T02:51:52.489Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '1': 1 } } ]
+enter formatPolls with 12 polls
+0
+Table {
+  heading: '``` Am I a cool bot?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 } ] }
+1
+Table {
+  heading: '``` How far could you throw a goat?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0, '2': 0, '3': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 },
+     Row { option: 2, answer: [Object], height: 1, count: 0 },
+     Row { option: 3, answer: [Object], height: 1, count: 0 } ] }
+2
+Table {
+  heading: '``` Tacos or Pizza?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 1 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 1 } ] }
+3
+Table {
+  heading: '``` If you could go back in time, which would you rather do?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 0, '2': 0, '3': 1, '4': 0, '5': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 },
+     Row { option: 2, answer: [Object], height: 1, count: 0 },
+     Row { option: 3, answer: [Object], height: 1, count: 1 },
+     Row { option: 4, answer: [Object], height: 1, count: 0 },
+     Row { option: 5, answer: [Object], height: 1, count: 0 } ] }
+4
+Table {
+  heading: '``` NASCAR or Indy\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 0, '2': 1 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 },
+     Row { option: 2, answer: [Object], height: 1, count: 1 } ] }
+5
+Table {
+  heading: '``` Brains?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 } ] }
+6
+Table {
+  heading: '``` Chopped, Master Chef or Iron Chef\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0, '2': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 },
+     Row { option: 2, answer: [Object], height: 1, count: 0 } ] }
+7
+Table {
+  heading: '``` Strong or Weak types?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 } ] }
+8
+Table {
+  heading: '``` Would you rather eat 1 cup of hot butter or catsup?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 } ] }
+9
+Table {
+  heading: '``` Would you rather eat a 1 cup of cold butter or catsup?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 1 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 1 } ] }
+10
+Table {
+  heading: '``` How many dogs can you jump over?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 0, '2': 1 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 },
+     Row { option: 2, answer: [Object], height: 1, count: 1 } ] }
+11
+Table {
+  heading: '``` What is your favorite Bash command?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 1, '2': 0, '3': 0, '4': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 1 },
+     Row { option: 2, answer: [Object], height: 1, count: 0 },
+     Row { option: 3, answer: [Object], height: 1, count: 0 },
+     Row { option: 4, answer: [Object], height: 1, count: 0 } ] }
+info: >   [End]  1  Conversation with  U0SFSHF25 in D24L03M0U
+info: [End]  1  Task for  U0SFSHF25 in D24L03M0U
+get poll started
+info: [Start]  2  Task for  U0SFSHF25 in C12P30G57
+info: >   [Start]  2  Conversation with  U0SFSHF25 in C12P30G57
+started conversation
+costructed query started
+parseWords
+[ [ 'about', 1 ] ]
+determineLast
+U0SFSHF25
+undefined
+info: >   [End]  2  Conversation with  U0SFSHF25 in C12P30G57
+info: [End]  2  Task for  U0SFSHF25 in C12P30G57
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: pollster ...attempting to connect to RTM!
+notice: RTM websocket opened
+get poll started
+info: [Start]  0  Task for  U0SFSHF25 in C12P30G57
+info: >   [Start]  0  Conversation with  U0SFSHF25 in C12P30G57
+started conversation
+costructed query started
+parseWords
+[ [ 'about', 1 ] ]
+determineLast
+U0SFSHF25
+undefined
+info: >   [End]  0  Conversation with  U0SFSHF25 in C12P30G57
+info: [End]  0  Task for  U0SFSHF25 in C12P30G57
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: tester ...attempting to connect to RTM!
+notice: RTM websocket opened
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: tester ...attempting to connect to RTM!
+notice: RTM websocket opened
+info: [Start]  0  Task for  U0SFSHF25 in D271BP8AD
+info: [Start]  0  Task for  U0SFSHF25 in D271BP8AD
+info: >   [Start]  0  Conversation with  U0SFSHF25 in D271BP8AD
+info: ** API CALL: https://slack.com/api/im.open
+info: >   [Start]  0  Conversation with  U0SFSHF25 in D271BP8AD
+info: ** API CALL: https://slack.com/api/im.open
+info: >   [Start]  1  Conversation with  U0SFSHF25 in D271BP8AD
+info: >   [End]  0  Conversation with  U0SFSHF25 in D271BP8AD
+info: >   [Start]  1  Conversation with  U0SFSHF25 in D271BP8AD
+info: >   [End]  0  Conversation with  U0SFSHF25 in D271BP8AD
+info: >   [End]  1  Conversation with  U0SFSHF25 in D271BP8AD
+info: [End]  0  Task for  U0SFSHF25 in D271BP8AD
+info: >   [End]  1  Conversation with  U0SFSHF25 in D271BP8AD
+info: [End]  0  Task for  U0SFSHF25 in D271BP8AD
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: pollster ...attempting to connect to RTM!
+notice: RTM websocket opened
+get poll started
+info: [Start]  0  Task for  U0SFSHF25 in C12P30G57
+info: >   [Start]  0  Conversation with  U0SFSHF25 in C12P30G57
+started conversation
+costructed query started
+parseWords
+[ [ 'about', 1 ] ]
+determineLast
+U0SFSHF25
+{ '$text': { '$search': 'butter' } }
+[ { _id: 57c641721c88f343136f2d98,
+    user: 'pollster',
+    question: 'Would you rather eat a 1 cup of cold butter or catsup?',
+    options: [ 'butter', 'catsup' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 0, '1': 1 } },
+  { _id: 57c641721c88f343136f2d99,
+    user: 'pollster',
+    question: 'Would you rather eat 1 cup of hot butter or catsup?',
+    options: [ 'butter', 'catsup' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0 } } ]
+enter formatPolls with 2 polls
+0
+Table {
+  heading: '``` Would you rather eat a 1 cup of cold butter or catsup?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 1 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 1 } ] }
+1
+Table {
+  heading: '``` Would you rather eat 1 cup of hot butter or catsup?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 } ] }
+info: >   [End]  0  Conversation with  U0SFSHF25 in C12P30G57
+info: [End]  0  Task for  U0SFSHF25 in C12P30G57
+get poll started
+info: [Start]  1  Task for  U0SFSHF25 in C0SFY5QCA
+info: >   [Start]  1  Conversation with  U0SFSHF25 in C0SFY5QCA
+started conversation
+costructed query started
+parseWords
+[ [ 'about', 1 ] ]
+determineLast
+U0SFSHF25
+{ '$text': { '$search': 'butter' } }
+[ { _id: 57c641721c88f343136f2d98,
+    user: 'pollster',
+    question: 'Would you rather eat a 1 cup of cold butter or catsup?',
+    options: [ 'butter', 'catsup' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 0, '1': 1 } },
+  { _id: 57c641721c88f343136f2d99,
+    user: 'pollster',
+    question: 'Would you rather eat 1 cup of hot butter or catsup?',
+    options: [ 'butter', 'catsup' ],
+    inserted: 2016-08-31T02:31:14.496Z,
+    complete: [ 'robot' ],
+    channel: 'C12P30G57',
+    answers: { '0': 1, '1': 0 } } ]
+enter formatPolls with 2 polls
+0
+Table {
+  heading: '``` Would you rather eat a 1 cup of cold butter or catsup?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 0, '1': 1 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 0 },
+     Row { option: 1, answer: [Object], height: 1, count: 1 } ] }
+1
+Table {
+  heading: '``` Would you rather eat 1 cup of hot butter or catsup?\n asked on Aug 30, 2016 \n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷\n⎪ Option ⎪ Answer                    ⎪ Times Chosen ⎪\n ∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷',
+  totalResponses: 1,
+  answers: { '0': 1, '1': 0 },
+  rows: 
+   [ Row { option: 0, answer: [Object], height: 1, count: 1 },
+     Row { option: 1, answer: [Object], height: 1, count: 0 } ] }
+info: >   [End]  1  Conversation with  U0SFSHF25 in C0SFY5QCA
+info: [End]  1  Task for  U0SFSHF25 in C0SFY5QCA
+info: ** No persistent storage method specified! Data may be lost when process shuts down.
+info: ** Setting up custom handlers for processing Slack messages
+info: ** API CALL: https://slack.com/api/rtm.start
+notice: ** BOT ID: pollster ...attempting to connect to RTM!
+notice: RTM websocket opened
